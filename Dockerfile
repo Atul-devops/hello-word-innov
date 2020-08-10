@@ -1,3 +1,3 @@
-FROM tomcat:8
+FROM nginx
 MAINTAINER Atul-project, CI-CD Docker-jenkins
-COPY /webapp/target/*.war /usr/local/tomcat/webapps/
+COPY *.war /usr/local/nginx/webapps/
